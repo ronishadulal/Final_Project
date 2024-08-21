@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.head{
+    background-image: url('https://whitetigerholidays.com/wp-content/uploads/2022/04/pexels-julius-silver-753626.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    color: white;
+}
+.form{
+    margin-top: 140px;
+    padding-bottom: 220px;
+}
+form button{
+    width: 100%;
+}
+.box a, .tipsbox a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.box, .tipsbox{
+    border: 1px solid rgb(209, 206, 206);
+    
+}
+footer{
+    background-color: black;
+    color: white;
+}
+		
+.parallax {
+    background-image: url('Screenshot_27-4-2024_15307_whitetigerholidays.com.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+   
+    background-position: center center;
+    height: 50vh; 
+    text-align: center;
+    
+}
+
+.tipsbox:hover, .box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+    
+    .nav-item{
+        display: none; /* Hide the buttons with the icon class */
+    }
+    .Sboxes{
+        text-align: center;
+    }
+   
+}

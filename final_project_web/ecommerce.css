@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.nav{
+    width: 100%;
+}
+.heading{
+    background-color: #d8aab4;
+    width: 100%;
+    
+}
+#home{
+    color:#d8aab4;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 230px;
+}
+.image img {
+    max-width: 100%; /* Set the maximum width to 100% of the parent container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure the image is a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+.limited{
+    background-color:  #FDF6F0;
+}
+.journey{
+    background-image: url(https://www.pastel-beauty.com/wp-content/uploads/2021/08/bg-FOR-WEBSITE.gif);
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 110px;
+    padding-bottom: 80px;
+    background-attachment: fixed;
+}
+.jsmalll{
+    background-color: white;
+    height: 95%;
+}
+.jsmall img{
+    height: 95%;
+}
+.journey button{
+    background:#d8aab4;
+    border: none;
+    padding: 10px;
+   color: white;
+   margin-bottom: 30px;
+   align-items: center;
+    
+}
+.jsmalll h1{
+    padding: 20px;
+    padding-top: 80px;
+}
+.content{
+    width: 50%;
+    
+}
+footer{
+    background-color: #fdebea;
+    padding: 50px;
+   
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.content {
+    display: flex;
+    align-items: center; /* Vertically center align the content */
+}
+a:hover{
+    color: #d8aab4;
+}
+.box2 img{
+    width: 95%;
+}
+
+.eye{
+    height: 100vh;
+}
+.eye img{
+    height: 60vh;
+}
+
+/* General CSS */
+.content {
+    display: flex;
+    align-items: center; /* Vertically center align the content */
+    width: 50%;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .eye{
+        height: auto;
+    }
+     .content {
+        display: block; /* Switch to block layout */
+        width: 100%; /* Ensure content takes full width */
+        text-align: center; /* Center text and other inline elements */
+       
+    }
+    .nav{
+        display: none;
+    }
+    
+    .content img,
+    .content video {
+        width: 100%; /* Ensure media takes full width */
+        height: 80vh; /* Maintain aspect ratio */
+    }
+}
